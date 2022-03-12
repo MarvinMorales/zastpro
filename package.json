@@ -2,14 +2,10 @@
   "name": "zastpro",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://marvinmorales.github.io/zastpro/",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "dev": "next dev",
+    "dev": "node server.js",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "NODE_ENV=production node server.js"
   },
   "dependencies": {
     "@emotion/react": "^11.8.2",

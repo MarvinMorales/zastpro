@@ -15,8 +15,8 @@ export default function IndexHome() {
             <title>ZastPro | improve your marketing campaing</title>
             <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600" rel="stylesheet"/>
             <link rel="stylesheet" href="dist/css/style.css" />
-            <Script src="https://kit.fontawesome.com/26afabd640.js" crossorigin="anonymous"></Script>
           </Head>
+          <Script src="https://kit.fontawesome.com/26afabd640.js" crossorigin="anonymous"></Script>
           <React.Fragment>
               <body className="is-boxed has-animations">
           <div className="body-wrap">
@@ -282,7 +282,7 @@ export default function IndexHome() {
                         <a href="#">About us</a>
                     </li>
                     <li>
-                        <a href="#">FAQ's</a>
+                        <a href="#">FAQ&apos;s</a>
                     </li>
                     <li>
                         <a href="#">Support</a>
